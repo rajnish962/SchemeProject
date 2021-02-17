@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/tvPGh"
+     android:text="PRATAPGARH"
+     android:layout_marginLeft="100dp"
+     android:layout_marginRight="100dp"
+     android:layout_marginTop="10dp"
+     android:textColor="@color/black"
+     android:textStyle="bold"
+     android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTcp"
+        android:text="TSP"
+        android:layout_marginRight="100dp"
+        android:layout_below="@+id/tvPGh"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSch"
+        android:text="SCHEMES"
+        android:layout_marginRight="100dp"
+        android:layout_below="@+id/tvTcp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvYojana"
+        android:layout_marginRight="100dp"
+        android:text="Sanchalit yojana"
+        android:layout_below="@+id/tvSch"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="135dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:id="@+id/login"
+        android:textAllCaps="false"
+        android:text="Log in"
+        android:backgroundTint="@color/black"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:layout_below="@+id/tvYojana"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="70dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvApp"
+        android:text="APP DEVELOPED BY NIC  "
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="90dp"
+        android:layout_below="@+id/login"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPRA"
+        android:text="PRATAPGARH"
+        android:layout_marginRight="100dp"
+        android:layout_below="@+id/tvApp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRJS"
+        android:text="RAJASTHAN"
+        android:layout_marginRight="70dp"
+        android:layout_below="@+id/tvPRA"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+
+
+
+</RelativeLayout>
+</ScrollView>

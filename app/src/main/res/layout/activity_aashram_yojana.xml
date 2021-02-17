@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AashramYojanaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. AASHRAM CHHATRAVASO KA "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SANCHALAN YOJANA"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="janjati chhatra chhtaraye unke niwas sthan  ke najdik wanchhit star ka vidyalaye nahin hone ki sthithi me unke pariwaron ki kamjor aarthik sthithi ke karan dur-daraj
+     ke school me adhyan jari nahi rakh pate hain.
+atah aise chhatra chhatrayen adhyan jari rakh sake ,is uddhesya se vibhag dwara 356 aashram chhtravash sanchalit kiye ja rahe hain.
+in chhatravashon me 2000/- rupee pratimah prati chhatra-chhatraa ki dar se nihsulk aawash ,bhojan,poshak  evam anya subidhayen uplabdh krayi jati hai.
+aashram chhatravason me karyarat adhikshak evam coch ko 15 pratishat vishesh bhatta evam 10 pratishat makan kiraya bhatta diya jata raha hai. "
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"/>
+
+
+</LinearLayout>
+</ScrollView>
